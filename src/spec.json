@@ -1,0 +1,202 @@
+{
+  "title": "Gestione corsi di formazione",
+  "description": "Catalogo navigabile di corsi interni, con docenti, calendario, disponibilità dei posti e gestione delle iscrizioni.",
+  "accent": "indigo",
+  "pages": [
+    {
+      "id": "dashboard",
+      "title": "Panoramica",
+      "description": "Riepilogo del catalogo corsi e delle disponibilità; usa la tabella per consultare le sessioni in programma.",
+      "metrics": [
+        {
+          "label": "Corsi attivi",
+          "value": "12"
+        },
+        {
+          "label": "Sessioni in programma",
+          "value": "8"
+        },
+        {
+          "label": "Posti disponibili",
+          "value": "46"
+        },
+        {
+          "label": "Iscrizioni confermate",
+          "value": "38"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Comunicazione chiara",
+          "Lumo Vela",
+          "12/06/2026",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali essenziali",
+          "Nubi Riva",
+          "18/06/2026",
+          "0",
+          "Completo"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Timo Lume",
+          "25/06/2026",
+          "4",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura per progetti",
+          "Vela Neri",
+          "02/07/2026",
+          "9",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": []
+    },
+    {
+      "id": "catalogo-corsi",
+      "title": "Catalogo corsi",
+      "description": "Consulta e filtra i corsi per titolo, docente e stato. Registra un nuovo corso compilando i campi nell’ordine indicato.",
+      "metrics": [],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Comunicazione chiara",
+          "Lumo Vela",
+          "12/06/2026",
+          "6",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Strumenti digitali essenziali",
+          "Nubi Riva",
+          "18/06/2026",
+          "0",
+          "Completo"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Timo Lume",
+          "25/06/2026",
+          "4",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Scrittura per progetti",
+          "Vela Neri",
+          "02/07/2026",
+          "9",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Collaborazione tra gruppi",
+          "Rugi Ada",
+          "09/07/2026",
+          "7",
+          "Iscrizioni aperte"
+        ],
+        [
+          "Gestione delle priorità",
+          "Mira Sole",
+          "16/07/2026",
+          "3",
+          "Iscrizioni aperte"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Posti disponibili",
+        "Stato"
+      ]
+    },
+    {
+      "id": "iscrizioni",
+      "title": "Iscrizioni",
+      "description": "Gestisci le iscrizioni alle sessioni, controlla lo stato e aggiorna i posti residui. Filtra la tabella per corso o stato.",
+      "metrics": [
+        {
+          "label": "Iscrizioni totali",
+          "value": "38"
+        },
+        {
+          "label": "In attesa",
+          "value": "5"
+        },
+        {
+          "label": "Confermate",
+          "value": "33"
+        }
+      ],
+      "columns": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Partecipante",
+        "Stato"
+      ],
+      "rows": [
+        [
+          "Comunicazione chiara",
+          "Lumo Vela",
+          "12/06/2026",
+          "Nubi Timo",
+          "Confermata"
+        ],
+        [
+          "Comunicazione chiara",
+          "Lumo Vela",
+          "12/06/2026",
+          "Riva Sole",
+          "In attesa"
+        ],
+        [
+          "Strumenti digitali essenziali",
+          "Nubi Riva",
+          "18/06/2026",
+          "Mira Lume",
+          "Confermata"
+        ],
+        [
+          "Organizzazione del lavoro",
+          "Timo Lume",
+          "25/06/2026",
+          "Vela Ada",
+          "Confermata"
+        ],
+        [
+          "Scrittura per progetti",
+          "Vela Neri",
+          "02/07/2026",
+          "Timo Neri",
+          "In attesa"
+        ]
+      ],
+      "form": [
+        "Corso",
+        "Docente",
+        "Data",
+        "Partecipante",
+        "Stato"
+      ]
+    }
+  ]
+}
